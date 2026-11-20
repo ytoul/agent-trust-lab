@@ -52,5 +52,25 @@ AGENT_TOOLS = [
             "additionalProperties": False
         },
         "strict": True
+    },
+    {
+        "type": "function",
+        "name": "get_receipt",
+        "description": (
+            "Retrieve the contents of a synthetic expense "
+            "receipt by its receipt ID."
+        ),
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "receipt_id": {
+                    "type": "string",
+                    "description": "Receipt identifier, e.g. RCP-001"
+                }
+            },
+            "required": ["receipt_id"],
+            "additionalProperties": False
+        },
+        "strict": True
     }
 ]

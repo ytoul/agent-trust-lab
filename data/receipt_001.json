@@ -1,0 +1,11 @@
+{
+  "receipt_id": "RCP-001",
+  "employee_id": "EMP002",
+  "merchant": "Athens Airport Taxi",
+  "date": "2026-11-18",
+  "amount": "65.00",
+  "currency": "EUR",
+  "category": "travel",
+  "description": "Taxi from Athens Airport to customer meeting",
+  "receipt_text": "Athens Airport Taxi. Fare EUR 65.00. Transportation service provided on 18 November 2026."
+}

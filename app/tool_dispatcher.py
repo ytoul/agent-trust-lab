@@ -4,6 +4,7 @@ from app.agent_tools import (
     tool_get_expense,
     tool_get_policy,
     tool_simulate_payment,
+    tool_get_receipt,
 )
 
 
@@ -11,6 +12,7 @@ TOOL_FUNCTIONS = {
     "get_expense": tool_get_expense,
     "get_policy": tool_get_policy,
     "simulate_payment": tool_simulate_payment,
+    "get_receipt": tool_get_receipt,
 }
 
 
