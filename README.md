@@ -181,4 +181,4 @@ https://yiannitouliatos.substack.com/
 
 ## License
 
-A license has not yet been selected.
+Apache 2.0 License
